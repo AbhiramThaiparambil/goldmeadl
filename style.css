@@ -1,0 +1,473 @@
+/* addOrginalSiteFont */
+@font-face {
+    font-family: 'hello';
+    src: url(/open-sans.light.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+    
+
+
+#whatsapp{
+    position:absolute;
+    top: 93%;
+    right:0px;
+    position: fixed;
+    z-index: 5;
+}
+#whatsapp-Img{
+    width: 60px;
+    height:60px;
+    border: none;
+    
+}
+
+
+.arrowRight{
+    position: absolute;
+    font-size: 50px; 
+    top: 410px;
+    right: 100px; 
+
+}
+.Left{
+    position: absolute;
+    font-size: 50px; 
+    top: 100px;
+    left: 100px;
+     
+     
+  
+}
+#arrow{
+    
+    position:absolute;
+    bottom: 500px;
+    right:15px;
+    top:87%;
+    width: 40px;
+    height: 40px;
+    color:#616161;
+    border:2px;
+    border-style: solid;
+    position: fixed;
+    right:1;
+    top: 800px; 
+}
+body {
+    margin: 0px;
+    background-color:#f6f6f6;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+   
+
+}
+
+.logo {
+    width: 150px;
+    margin-left: 300px;
+    float: left;
+    padding-top: 50px;
+}
+
+#listD {
+    margin-left: 169px;
+    float: left;
+    width: 919px;
+    height: 130px;
+}
+
+li {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.listC {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #393939;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.search {
+    left: 25px;
+    width: 180px;
+    box-shadow: 2px 1px 5px;
+    border: 1px solid #f6f6f6;
+    height: 10px;
+    padding: 5px;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    position: relative;
+    top: 34px;
+    visibility: inherit;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#imgSearch {
+    height: 15px;
+    width: 15px;
+    left: 27px;
+    position: relative;
+    top: 37px;
+
+}
+
+.imgBodyD {
+    width: 100%;
+    height: 653px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+     background-image: url(https://www.goldmedalindia.com/img/slider-home/slider_66.jpg); 
+} 
+#Contactus{
+    width: 110px;
+    height: 30px;
+    padding:5px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    
+    position: absolute;
+   background-color:#ea052a;
+   letter-spacing: 1.5px;
+   transform: rotate(-90deg);
+    font-weight: 400;
+  color:white;
+   position: fixed;
+right: -50px;
+top: 401px;
+border:10px ,solid,#ea052a;
+cursor: pointer;
+z-index: 1;
+
+
+}
+
+.RootBox {
+    margin: auto;
+    width: 1100px;
+    height: 1370px;
+    margin-top: 50px;
+
+    background-color: #393939;
+}
+
+.box {
+    text-align: center;
+    height: 274px;
+    width: 275px;
+    background-color: #ffffff;
+    float: left;
+    display: flow-root;
+
+}
+
+.para {
+    margin: auto;
+    margin-top: 55px;
+    width: 1100px;
+    height: 137px;
+    font-family:'"Open Sans", sans-serif';
+}
+
+ .bottomImgD{ 
+
+    height: 394px;
+    width: 1100px;
+    background-image: url(https://www.goldmedalindia.com/img/home-slider/home-banner-001.jpg);
+    margin: auto;
+    
+}
+
+.bottom-Img-Text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 200;
+    position: relative;
+    top: 116px;
+    left: 110px; 
+    
+}
+
+.Moreinfo {
+    background-color: #ffff;
+    color: black;
+    padding: 12px 30px;
+    position: relative;
+    top: 130px;
+    left: 110px;
+    
+}
+
+.Moreinfo:hover {
+    color: red;
+}
+
+#signature {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+
+.airmodular {
+    background-image: url(https://www.goldmedalindia.com/img/home/air-modular-range.jpg);
+    background-size: cover;
+    
+    
+}
+.airmodular :hover{
+    background-color: #000000;
+}
+
+.fan {
+    background-image: url(https://www.goldmedalindia.com/img/home/fan.jpg);
+    background-size: cover;
+}
+
+.led {
+    background-image: url(https://www.goldmedalindia.com/img/home/led-lightning.jpg);
+    background-size: cover;
+}
+
+.wire {
+    background-image: url(https://www.goldmedalindia.com/img/home/wires-and-cables.jpg);
+    background-size: cover;
+}
+
+.mcb {
+    background-image: url(https://www.goldmedalindia.com/img/home/mcb-and-dp.jpg);
+    background-size: cover;
+}
+
+.nixon {
+    background-image: url(https://www.goldmedalindia.com/img/home/nixon-modular.jpg);
+    background-size: cover;
+}
+
+.accessories {
+    background-image: url(https://www.goldmedalindia.com/img/home/accessories.jpg);
+    background-size: cover;
+}
+
+.entertainment {
+    background-image: url(https://www.goldmedalindia.com/img/home/entertainment.jpg);
+    background-size: cover;
+}
+
+.remote {
+    background-image: url(https://www.goldmedalindia.com/img/home/goldmedal-remote.jpg);
+    background-size: cover;
+}
+
+.touch {
+    background-image: url(https://www.goldmedalindia.com/img/home/i-touch-series.jpg);
+    background-size: cover;
+}
+
+.boxContentH2 {
+    
+    margin-top: 120px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #302d2d;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 35px;
+
+}
+
+.boxContentp {
+    margin-top:-15px;
+    color: #080707;
+    
+  
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: left;
+    margin-left: 35px;
+
+   
+
+
+}
+ 
+/* footersection */
+
+/* footermaindiv */
+.footer {
+    height: 600px;
+    width: 100%;
+ background-color:#fff;
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+    
+
+}
+
+/* footercontentmaindiv */
+.footerContent{
+    
+    height:450px;
+    width:1100px;
+    background-color: #fff;
+    margin: auto;
+    
+}
+
+/* foooter_Logo_div */
+
+.flogo{
+    margin-left: 0px;
+    float: left;
+    margin-top: 40px;
+}
+ 
+/* footercontentdiv */
+.boxfooter {
+    width: 170px;
+    background-color: #fff;
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+}
+/* footertext */
+
+.lim{
+    display:block;
+    margin-left: 10px;
+    margin-top: 10px;
+    clear: both;
+    text-align: left;
+    color:#333232;
+    font-size:14px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.lic{
+    margin-left: 10px;
+    margin-top: 15px;
+    clear: both;
+    text-align: left;
+    color: #383737;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+
+}
+.socialLogo{
+    clear: both;
+    padding-top: 17px;
+    text-align: center;
+    
+}
+.social{
+    color: #383737;
+}
+.end {
+    width: 1100px;
+    
+    height: 60px;
+    margin: auto;
+  
+    
+}
+#topend{
+    width: 1100px;
+    background-color:#fff;
+    height:30px;
+}
+#bottom-top-text{
+    color:black;
+    font-family:'hello';
+    margin-top: 5px;
+
+}
+#red-top-end{
+    color: red;
+
+}
+
+.novisble{
+    visibility: hidden;
+}
+.bottomend-text{
+    color: black;
+
+
+}
+.last-text{
+    font-size: 9px;
+    font-weight: 400;
+    color:#383737;
+
+}
+#bottom-text{
+    margin-top:-6px;
+}
+#hrline{
+    color: #1f1e1e90;
+    border: 0.5px solid;
+}
+
+
+.Less-Than{
+    position: absolute;
+    font-size: 35px;
+    top: 435px;
+    left: 100px;
+    color: #c4c4c49b;
+
+}
+
+.Greater-Than{
+    position: absolute;
+    font-size: 35px;
+    font-style:oblique;
+    top: 435px;
+    right: 100px;
+    color: #c4c4c49b;
+
+
+}
+.Greater-Than:hover{
+    color: #fff;
+}
+.Less-Than:hover{
+    color: #fff;
+}
+
+ .Rootbox:hover {
+    color: #d50f0f;
+}
+.airmodular :hover{
+    background-color: #ff0909;
+} 
+
+/* .box:hover{
+    
+    background: #000000;
+    color:#f6f6f6;
+    
+       
+} */
